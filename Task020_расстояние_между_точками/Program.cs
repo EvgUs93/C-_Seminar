@@ -16,9 +16,9 @@ System.Console.Write("Введите Х второй точки:");
 int SecondX = int.Parse(Console.ReadLine());
 System.Console.Write("Введите Y первой точки:");
 int SecondY = int.Parse(Console.ReadLine());
-
-double distanse = Math.Round((Math.Sqrt(
-    Math.Pow((FirstX - SecondX), 2) +
+                     //Math.Round(а, б) округляет а до б знаков после запятой
+double distanse = Math.Round((Math.Sqrt( //Math.Sqrt(а) извлекает корень а
+    Math.Pow((FirstX - SecondX), 2) + //Math.Pow (а, б) возводит а в степень б
     Math.Pow((FirstY - SecondY), 2)
     )), 2);
 System.Console.WriteLine($"расстояние равно {distanse}");

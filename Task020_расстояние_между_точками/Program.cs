@@ -18,7 +18,8 @@ System.Console.Write("Введите Y первой точки:");
 int SecondY = int.Parse(Console.ReadLine());
 
 double distanse = Math.Round((Math.Sqrt(
-    (FirstX - SecondX) * (FirstX - SecondX) + (FirstY - SecondY) * (FirstY - SecondY)
-    )),2);
+    Math.Pow((FirstX - SecondX), 2) +
+    Math.Pow((FirstY - SecondY), 2)
+    )), 2);
 System.Console.WriteLine($"расстояние равно {distanse}");
 

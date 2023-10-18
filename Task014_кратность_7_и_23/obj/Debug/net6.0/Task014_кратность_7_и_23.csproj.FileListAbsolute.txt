@@ -1,0 +1,15 @@
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.csproj.AssemblyReference.cache
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.AssemblyInfoInputs.cache
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.AssemblyInfo.cs
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.csproj.CoreCompileInputs.cache
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\bin\Debug\net6.0\Task014_кратность_7_и_23.exe
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\bin\Debug\net6.0\Task014_кратность_7_и_23.deps.json
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\bin\Debug\net6.0\Task014_кратность_7_и_23.runtimeconfig.json
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\bin\Debug\net6.0\Task014_кратность_7_и_23.dll
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\bin\Debug\net6.0\Task014_кратность_7_и_23.pdb
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.dll
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\refint\Task014_кратность_7_и_23.dll
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.pdb
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\Task014_кратность_7_и_23.genruntimeconfig.cache
+C:\Users\EvGus93\Desktop\Учеба\Знакомство с C##\Семинары\Семинары\Task014_кратность_7_и_23\obj\Debug\net6.0\ref\Task014_кратность_7_и_23.dll

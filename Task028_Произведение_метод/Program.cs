@@ -18,6 +18,14 @@ int Fact(int number)
         i++;
     }
     return result;
+    /*
+    int result = 1;
+    for (int i = 1; i <= number; i++)
+    {
+        result *= i;
+    }
+    return result
+    */
 }
 
 int res = Fact(user_num);

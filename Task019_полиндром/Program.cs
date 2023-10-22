@@ -27,3 +27,7 @@ else
        System.Console.WriteLine("не является");
     }
 }
+/*for (int i = N; i > 0; i /= 10)
+{
+    revN= revN * 10 +int % 10;
+}*/

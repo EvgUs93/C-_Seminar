@@ -19,4 +19,4 @@ int Sum(int N)
 }
 
 int sum = Sum(user_num);
-System.Console.WriteLine(sum);
+System.Console.WriteLine($"Сумма чисел от 1 до {user_num} равна {sum}");

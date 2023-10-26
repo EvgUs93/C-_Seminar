@@ -6,10 +6,19 @@
 */
 
 Console.Clear();
-int[] test_array = NewArray(10, -10, 10);
+int[] test_array = NewArray(5, -10, 10);
 PrintArray(test_array);
 System.Console.WriteLine();
-PrintArray(Product(test_array));
+if (test_array.Length % 2 == 0)
+{
+    int[] test2 = Product1(test_array);
+    PrintArray(test2);
+}
+else
+{
+    int[] test2 = Product2(test_array);
+    PrintArray(test2);
+}
 
 
 int[] NewArray(int size, int min, int max)
@@ -29,12 +38,21 @@ void PrintArray(int[] array1)
         System.Console.Write(array1[i] + ", ");
 }
 
-int[] Product(int[] array3)
+int[] Product1(int[] array3)
 {
     int[] array4 = new int[array3.Length / 2];
     for (int i = 0; i < array3.Length / 2; i++)
     {
         array4[i] = array3[i] * array3[array3.Length - 1 - i];
+    }
+    return array4;
+}
+int[] Product2(int[] array3)
+{
+    int[] array4 = new int[array3.Length / 2 + 1];
+    for (int i = 0; i < array3.Length / 2 + 1; i++)
+    {
+        array4[i] = array3[i] * array3[array3.Length- 1 - i];
     }
     return array4;
 }

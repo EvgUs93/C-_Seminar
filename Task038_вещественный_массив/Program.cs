@@ -19,7 +19,7 @@ PrintArray(double[] array): Метод для вывода массива на �
 */
 
 Console.Clear();
-double[] test_array = NewArray(5, -10, 10);
+double[] test_array = NewArray(5);
 PrintArray(test_array);
 System.Console.WriteLine();
 System.Console.WriteLine("Разность между максимумом и минимумом " + 
@@ -27,7 +27,7 @@ Math.Round(FindDif(test_array), 2));
 
 
 
-double[] NewArray(int size, double min, double max)
+double[] NewArray(int size)
 {
     double[] array = new double[size];
     for (int i = 0; i < array.Length; i++)

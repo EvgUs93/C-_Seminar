@@ -52,7 +52,14 @@ int[] Product2(int[] array3)
     int[] array4 = new int[array3.Length / 2 + 1];
     for (int i = 0; i < array3.Length / 2 + 1; i++)
     {
-        array4[i] = array3[i] * array3[array3.Length- 1 - i];
+        if (i < array3.Length / 2)
+        {
+            array4[i] = array3[i] * array3[array3.Length - 1 - i];
+        }
+        else
+        {
+            array4[i] = array3[i];
+        }
     }
     return array4;
 }

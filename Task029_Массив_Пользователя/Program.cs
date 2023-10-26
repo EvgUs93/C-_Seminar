@@ -28,6 +28,7 @@ void ShowArray(int[] new_array)
     {
         System.Console.Write(new_array[i]+" ");
     }
+    //foreach(int i in new_array)
 }
 
 int[] user_array = NewUserArray(user_size, user_min, user_max);

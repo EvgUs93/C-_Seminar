@@ -72,6 +72,6 @@ double FindMin(double[] array3)
 
 double FindDif(double[] array4)
 {
-    double dif = FindMax(array4) - FindMin(array4);
+    double dif = Math.Round(FindMax(array4), 2) - Math.Round(FindMin(array4), 2);
     return dif;
 }

@@ -32,7 +32,7 @@ double[] NewArray(int size)
     double[] array = new double[size];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().NextDouble();
+        array[i] = new Random().Next(-99, 99) + new Random().NextDouble();
     }
     return array;
 }
@@ -41,7 +41,7 @@ void PrintArray(double[] array1)
 {
     System.Console.WriteLine("Наш массив:");
     for (int i = 0; i < array1.Length; i++)
-        System.Console.Write(Math.Round(array1[i], 2) + ", ");
+        System.Console.Write(Math.Round(array1[i], 2) + "; ");
 }
 
 double FindMax(double[] array2)

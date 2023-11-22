@@ -21,7 +21,6 @@ System.Console.WriteLine();
 int[,] changedarray = ChangeArray(userarray);
 PrintArray(changedarray);
 
-
 int[,] CreateArray()
 {    
     int[,] NewArray = new int[4, 4];
@@ -49,10 +48,10 @@ void PrintArray(int[,] array)
 
 int[,] ChangeArray(int[,] array)
 {
-int[,] array1 = new int[array.GetLength(0), array.GetLength(1)];
+    int[,] array1 = new int[array.GetLength(0), array.GetLength(1)];
     if (array.GetLength(0) == array.GetLength(1))
-
         {
+            
             for(int i = 0; i < array.GetLength(0); i++)
             {
                 for(int j = 0; j < array.GetLength(1); j++)
@@ -65,5 +64,5 @@ int[,] array1 = new int[array.GetLength(0), array.GetLength(1)];
         {
             System.Console.WriteLine("Заменить строки на столбцы невозможно");
         }
-return array1;
+    return array1;
 }
